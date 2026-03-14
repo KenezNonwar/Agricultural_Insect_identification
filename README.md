@@ -23,6 +23,8 @@ A deep neural network model for classifying agricultural pests from images, buil
 
 This project implements an image classification pipeline to identify 12 categories of agricultural pests. It leverages **VGG16** (pre-trained on ImageNet) as a feature extractor with custom dense layers for fine-tuned classification. The goal is to enable fast and accurate pest identification to support timely intervention in agricultural settings.
 
+accuracy: 0.9445 loss: 0.1753
+
 ---
 
 ## Dataset
@@ -88,17 +90,14 @@ The model uses **transfer learning** on top of VGG16:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/agricultural-pest-identification.git
+   git clone [ https://github.com/KenezNonwar/Agricultural_Insect_identification.git ]
    cd agricultural-pest-identification
    ```
 
 2. **Install dependencies**
    ```bash
-   pip install tensorflow==2.19.0 netron kagglehub opencv-python scikit-learn matplotlib pandas numpy
+   pip install tensorflow==2.19.0 kagglehub opencv-python scikit-learn matplotlib pandas numpy
    ```
-
-3. **Set up Kaggle credentials** (for dataset download)
-   - Place your `kaggle.json` API key in `~/.kaggle/`
 
 ---
 
@@ -150,6 +149,9 @@ The model is trained with the following configuration:
   - `ReduceLROnPlateau` (patience=3, factor=0.5)
 
 The trained model is saved as `Argiculture_Model_v3.keras`.
+
+Or Download it from Drive to work locally
+https://drive.google.com/file/d/1kLqu3vqkt81-uLzAmsoqk68bJYwzcVNC/view?usp=sharing
 
 ---
 
