@@ -199,6 +199,9 @@ This project was developed and tested on **Google Colab with a T4 GPU**. It is r
 
 ---
 
+For Visuals i used repo from
+https://github.com/HarisIqbal88/PlotNeuralNet
+---
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
